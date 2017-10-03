@@ -1,0 +1,11 @@
+mutation_chance: 0.1
+mutation_max_size: 1
+grid: santa_fe_trail
+
+evolution:
+    population_size: 200
+    years: 500
+    selection: tournament
+    recombination: one_point_crossover
+    newborns_per_year: 6
+    deceases_per_year: 6
